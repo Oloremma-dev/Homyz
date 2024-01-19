@@ -3,6 +3,11 @@ import Hero from "./componenets/Hero/Hero";
 import "./App.css"
 import Companies from "./componenets/Companies/Companies";
 import Residencies from "./componenets/Residencies/Residencies";
+import Values from "./componenets/Values/Values";
+import Contact from "./componenets/Contact/Contact";
+import GetStarted from "./componenets/GetStarted/GetStarted";
+import Footer from "./componenets/Footer/Footer";
+
 function App() {
   return (
     <div className="App">
@@ -11,8 +16,12 @@ function App() {
         <Header />
         <Hero />
       </div> 
-      <Companies />
+       <Companies />
       <Residencies />
+      <Values />
+      <Contact />
+      <GetStarted />
+      <Footer /> 
     </div>
   );
 }
